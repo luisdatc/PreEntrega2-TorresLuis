@@ -27,10 +27,13 @@
     />
     <!-- ARCHIVO CSS -->
     <link rel="stylesheet" href="../css/style.css" />
+    <!-- Animate CSS -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Sucursales</title>
   </head>
   <body>
@@ -96,22 +99,7 @@
         <div class="container">
           <div class="row">
             <div
-              class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 img-location"
-            >
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3191.721107799601!2d-58.4877306767356!3d-34.5726537432045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb65e78779a2d%3A0x5e5db7ba51c54b2c!2sAv%20Triunvirato%204900%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1665280486297!5m2!1ses-419!2sar"
-                id="main__location"
-                width="500"
-                height="300"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                class="img-fluid img-location-2"
-              ></iframe>
-            </div>
-            <div
-              class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 allies-location   animate__animated animate__bounceInRight"
+              class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 allies-location"
             >
               <p class="description">
                 Nos puedes encontrar en nuestra sucursal principal ubicada en:
@@ -127,21 +115,32 @@
           </div>
           <div class="row">
             <div
-              class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 img-location"
+              class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 img-location"
             >
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.5139319501177!2d-58.462338084274585!3d-34.56586036300397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d662a7949d%3A0xab7099d1eeffd6f9!2sAv.%20Cr%C3%A1mer%201975%2C%20C1428%20CTC%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1665282800320!5m2!1ses-419!2sar"
-                width="500"
-                height="300"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                class="img-fluid img-location-2"
-              ></iframe>
+              <div data-aos="zoom-in-up" data-aos-duration="1500">
+                <img
+                  src="../assets/main-location.PNG"
+                  alt="Ubicacion Principal"
+                  class="img-fluid img-location-edit"
+                />
+              </div>
             </div>
+          </div>
+
+          <div class="row">
             <div
-              class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 allies-location animate__animated animate__bounceInRight"
+              class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 allies-location mt-5 mb-5"
+            >
+              <p class="description">
+                Aca puedes ver las ubicaciones de nuestros aliados comerciales,
+                donde podras encontrar nuestros productos:
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div
+              class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 allies-location"
             >
               <div class="allies-location-text">
                 <a
@@ -152,24 +151,42 @@
                 Av. Cramer 2109. Belgrano, Capital Federal.
               </div>
             </div>
+            <div
+              class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 img-location"
+            >
+              <div
+                data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="300"
+                data-aos-duration="2500"
+              >
+                <img
+                  src="../assets/location1.PNG"
+                  alt="Ubicacion Aliado Comercial"
+                  class="img-fluid img-location-edit"
+                />
+              </div>
+            </div>
           </div>
           <div class="row">
             <div
-              class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 img-location"
+              class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 img-location"
             >
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6368193618337!2d-58.429599784274!3d-34.5880550641776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5864a85b8eb%3A0xa23b2cf868274f8b!2sGurruchaga%201796%2C%20C1414DIJ%20CABA!5e0!3m2!1ses-419!2sar!4v1665282928994!5m2!1ses-419!2sar"
-                width="500"
-                height="300"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                class="img-fluid img-location-2"
-              ></iframe>
+              <div
+                data-aos="fade-right"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="300"
+                data-aos-duration="2500"
+              >
+                <img
+                  src="../assets/location2.PNG"
+                  alt="Ubicacion Aliado Comercial"
+                  class="img-fluid img-location-edit"
+                />
+              </div>
             </div>
             <div
-              class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 allies-location animate__animated animate__bounceInRight"
+              class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 allies-location"
             >
               <div class="allies-location-text">
                 <a
@@ -183,21 +200,7 @@
           </div>
           <div class="row">
             <div
-              class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 img-location"
-            >
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9947183556815!2d-58.40380938427359!3d-34.604295065036695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaecbf7e5a01%3A0xeb488bd63ebd0e5!2sAv.%20Corrientes%202455%2C%20C1046%20CABA!5e0!3m2!1ses-419!2sar!4v1665282966007!5m2!1ses-419!2sar"
-                width="500"
-                height="300"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                class="img-fluid img-location-2"
-              ></iframe>
-            </div>
-            <div
-              class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 allies-location animate__animated animate__bounceInRight"
+              class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 allies-location"
             >
               <div class="allies-location-text">
                 <a
@@ -208,24 +211,42 @@
                 Av. Corrientes 2455. Balvanera, Capital Federal.
               </div>
             </div>
+            <div
+              class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 img-location"
+            >
+              <div
+                data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="300"
+                data-aos-duration="2500"
+              >
+                <img
+                  src="../assets/location3.PNG"
+                  alt="Ubicacion Aliado Comercial"
+                  class="img-fluid img-location-edit"
+                />
+              </div>
+            </div>
           </div>
           <div class="row">
             <div
-              class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 img-location"
+              class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 img-location"
             >
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.9078045058477!2d-58.46160148427292!3d-34.63177006649101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca28e532faed%3A0x4eeb12e1a2021735!2sJos%C3%A9%20Bonifacio%202295%2C%20C1406%20GXW%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1665283074954!5m2!1ses-419!2sar"
-                width="500"
-                height="300"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                class="img-fluid img-location-2"
-              ></iframe>
+              <div
+                data-aos="fade-right"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="300"
+                data-aos-duration="2500"
+              >
+                <img
+                  src="../assets/location4.PNG"
+                  alt="Ubicacion Aliado Comercial"
+                  class="img-fluid img-location-edit"
+                />
+              </div>
             </div>
             <div
-              class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 allies-location animate__animated animate__bounceInRight"
+              class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 allies-location"
             >
               <div class="allies-location-text">
                 <a
@@ -293,5 +314,9 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
